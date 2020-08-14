@@ -1,0 +1,265 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.Quotes h1{
+	font-size:30px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+.Quotes h2{
+	font-size:30px;
+	position:absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+
+.Quotes h3{
+	font-size:30px;
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}
+.welcome{
+	font-size:30px;
+	position:absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: lightblue;
+}	
+
+.copyright{
+	font-size:15px;
+	position:absolute;
+	top: 98%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.copyrightes{
+	font-size:15px;
+	position:absolute;
+	top: 99%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.copyrightss{
+	font-size:15px;
+	position:absolute;
+	top: 195%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.logo{
+	float: right;
+	margin-top: 20px;
+}
+header{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Background.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	max-width: 1500px;
+	margin:auto;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 20px;
+}
+ul li{
+	display:inline-block;
+}
+ul li.active a{
+	background-color: lightblue;
+	color:black;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition:0.5s ease;
+}
+ul li a:hover{
+	background-color: black;
+	color:red;
+}
+
+.backone{
+	width:100%;
+	height:105vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Background2.jpg");
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	max-width: 1500px;
+	margin:auto;
+}
+.backtwo{
+	width:100%;
+	height:200vh;
+	background-image:url("Background3.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	max-width: 1500px;
+	margin:auto;	
+}
+ol{
+	font-size:15px;
+	position:absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+ol h4{
+	margin:20px;	
+}
+ol input{
+	font-size: 20px;
+
+}
+textarea{
+	width: 250px;
+	font-size: 15px;
+	margin: auto;
+}
+input[type=submit]{
+	padding:4px;
+	font-size: 20px;
+}
+.social{
+	font-size:15px;
+	position:absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.FBs{
+	margin-left: 100px;
+}
+.FBs img{
+	padding-left:20px; 
+}
+
+.cvimages{
+	float: right;
+	margin-right: 50px;
+	margin-top: 60px;
+	border-radius: 30px;
+}
+.titled{
+	float: right;
+	margin-right: -240px;
+	margin-top: 380px;
+}
+table{
+	font-size:15px;
+	position:absolute;
+	top: 110%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+table td{
+	width: 5%
+}
+.head{
+	float:left;
+	margin-left: 150px;
+	margin-top: -350px;
+	margin-right: 750px;
+}
+.describe{
+	font-size:15px;
+	float: right;
+	margin-top: -18%;
+	margin-left: 10%;
+	margin-right: 40%;
+}
+.define{
+	font-size: 15px;
+	float: left;
+	margin-left:10%;
+	margin-top: -20%;
+	margin-right: 40%;
+}
+.disdefine{
+	font-size: 15px;
+	float: right;
+	margin-right:3%;
+	margin-top: 8%;
+	margin-left: 63%;
+}
+.disdefiness{
+	font-size: 15px;
+	float: left;
+	margin-left:10%;
+	margin-top: 8%;
+	margin-right: 40%;
+}
+.comp{
+	float:right;
+	margin-right: 40px;
+	margin-top: -1230px;			
+}
+.compone{
+	float:left;
+	margin-left: 85px;
+	margin-top: -980px;			
+}
+.comptwo{
+	float:right;
+	margin-right: 40px;
+	margin-top: -720px;			
+}
+.compthree{
+	float:left;
+	margin-left: 85px;
+	margin-top: -460px;			
+}
+.compfour{
+	float:right;
+	margin-right: 40px;
+	margin-top: -220px;			
+}
+.defcomp{
+	float:left;
+	margin-left: 100px;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+.defcompone{
+	float:right;
+	margin-left: 900px;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+.defcomptwo{
+	float:left;
+	margin-left: 100px;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+.defcompthree{
+	float:right;
+	margin-left: 900px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+.defcompfour{
+	float:left;
+	margin-right: 800px;
+	margin-top: 80px;
+	margin-left: 100px;
+}

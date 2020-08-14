@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+	<div class="backone">
+		<div class="contact">
+			<ul>
+			<li><a href="Home page.html">Home</a></li>
+			<li><a href="aboutMe.html">About me</a></li>
+			<li><a href="Blogs.html">Blogs</a></li>
+			<li><a href="Research.html">Research</a></li>
+			<li class="active"><a href="Contact.html">Contact</a></li>
+			</ul>
+			<ol>
+				<form name="messageForm" onsubmit="validateForm()">
+					<h4>Plese fill up the form</h4>
+					<p><b>FirstName:</b><br> <input type="text" name="FirstName"></p><br>
+					<p><b>LastName:</b><br> <input type="text" name="LastName"></p><br>
+					<p><b>Address:</b><br> <input type="text" name="Address"></p><br>
+					<p><b>Country:</b><br> 
+					<select name="country">
+						<option value="Please select your country">please select your country</option>
+						<option value="India">India</option>
+						<option value="Bhutan">Bhutan</option>
+						<option value="Nepal">Nepal</option>
+						<option value="Pakistan">Pakistan</option>
+						<option value="New zealand">New Zealand</option>
+						<option value="England">England</option>
+						<option value="Australia">Australia</option>
+						<option value="America">America</option>
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="China">China</option>
+						<option value="Japan">Japan</option>
+						<option value="Korea">Korea</option>
+					</select><br><br>
+					<p><b>phone Number:</b><br> <input type="text" name="PhoneNumber"></p><br>
+					<p><b>Suggestions:</b></p><br> <textarea name=suggestions rows="5px" cols="20"></textarea><br><br>
+					<input type="Submit" value="Submit">
+				</form>
+				<script>
+						function validateForm() {
+						var fname = document.forms["messageForm"]["FirstName"].value;
+						var lname = document.forms["messageForm"]["LastName"].value;
+						var address= document.forms["messageForm"]["Address"].value;
+						var phno = document.forms["messageForm"]["PhoneNumber"].value;
+						var suggest = document.forms["messageForm"]["suggestions"].value;
+
+						if (fname == "" || lname == "" || suggest == ""|| address == "" || phno == ""){
+							alert("Fields cannot be empty. Please fill the form.");
+						}
+						else {
+							alert("Thank you for your suggestions.");
+						}
+					}
+				</script>
+			</ol>
+			<div class="social">
+				<p><b>For more Information follow me on below given links</b></p><br>
+				<div class="FBs">
+					<a href="https://www.facebook.com/rupesh.khadka.963?fref=pb&hc_location=friends_tab"><img src="FB.ico" width="45px" height="45px"></a>
+					<a href="https://www.instagram.com/khadka45/?hl=en"><img src="Insta.jpg" width="45px" height="45px"></a>
+				</div>
+			</div>
+		</div>
+		<div class="copyrightes">
+			<b><p>©Copyright RK. All Rights Reserved.</p></b>
+			<b><p>Designed by Rupesh Khadka</p></b>
+		</div>
+	</div>
+</body>
+</html>
